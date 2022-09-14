@@ -1,0 +1,66 @@
+.margin {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+}
+.margin .box {
+  background: #FEFEFE;
+  /* Card Shadow */
+  box-shadow: 0px 4px 32px rgba(66, 109, 199, 0.1);
+  border-radius: 8px;
+  padding: 1rem 5rem;
+}
+.margin .box .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.margin .box .row .column2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.margin .box .row .column2 .row2 span {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Typography / Secondary */
+  color: #4B5563;
+}
+.margin .box .row .column2 .row2 .broj {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  /* Primary Green */
+  color: #59A65A;
+}
+.margin .box .row .column2 .verified {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  background: #DCFFD7;
+  border-radius: 8px;
+  padding: 0.5rem;
+  /* identical to box height, or 143% */
+  /* Typography / Secondary */
+  color: #4B5563;
+}
+.margin .box .row .viewInvite {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  /* Primary Blue Shadow */
+  color: #426DC7;
+}/*# sourceMappingURL=style.css.map */
