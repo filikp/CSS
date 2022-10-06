@@ -1,0 +1,151 @@
+.logo-slika {
+  width: 79px;
+  height: 46.5px;
+}
+
+.navigacijska-traka {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.navigacijska-traka #kk {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 48px;
+  color: #4F4F4F;
+}
+
+.container {
+  padding: 7rem 3rem;
+}
+.container .row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.container .row1 .col1 h1 {
+  font-family: "Bodoni Moda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 98px;
+  color: #1C1D1E;
+}
+.container .row1 .col1 p {
+  margin-top: 48px;
+  margin-bottom: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #4F4F4F;
+}
+.container .row1 .col1 .kontakt {
+  background: #4A93EC;
+  border-radius: 4px;
+  border-style: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 64px;
+  padding: 16px 32px;
+  /* Background */
+  color: #F8FAFC;
+}
+.container .row1 .col2 {
+  padding-top: 5rem;
+}
+.container .row1 .col2 .slika {
+  width: 462px;
+  padding: 0 15px;
+  padding-top: 100px;
+}
+.container .row2 {
+  display: flex;
+  justify-content: center;
+}
+.container .row2 .profesionalna-nacela {
+  margin: 80px 0;
+  font-family: "Bodoni Moda";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 72px;
+  /* identical to box height, or 180% */
+  color: #000000;
+}
+.container .box .red {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+  height: 150px;
+}
+.container .box .red .stupac {
+  display: flex;
+  flex-direction: row;
+}
+.container .box .red .stupac .brojevi {
+  width: 100px;
+  padding-left: 1rem;
+}
+.container .box .red .stupac .brojevi .okvir {
+  border-style: solid;
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box .red .stupac .brojevi .okvir p {
+  font-family: "Didot";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 15px;
+}
+.container .box .red .stupac .tekst {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  padding-left: 4rem;
+  color: #4F4F4F;
+  width: 500px;
+}
+
+.zaglavlje {
+  padding: 4rem 5rem;
+  background: #1C1D1E;
+  display: flex;
+  justify-content: space-between;
+}
+.zaglavlje .stupac a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  /* identical to box height, or 180% */
+  margin: 2rem 1rem;
+  letter-spacing: 0.05em;
+  /* Background */
+  color: #F8FAFC;
+}
+.zaglavlje .stupac-logo {
+  margin-bottom: -4rem;
+  display: flex;
+  align-items: flex-end;
+}
+.zaglavlje .stupac-logo .logo-zaglavlje {
+  width: 370px;
+}/*# sourceMappingURL=osobno.css.map */
