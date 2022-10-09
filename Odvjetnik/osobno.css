@@ -23,11 +23,11 @@
 .container {
   padding: 7rem 3rem;
 }
-.container .row1 {
+.container .red1 {
   display: flex;
   justify-content: space-between;
 }
-.container .row1 .col1 h1 {
+.container .red1 .stup1 h1 {
   font-family: "Bodoni Moda";
   font-style: normal;
   font-weight: 400;
@@ -35,7 +35,7 @@
   line-height: 98px;
   color: #1C1D1E;
 }
-.container .row1 .col1 p {
+.container .red1 .stup1 p {
   margin-top: 48px;
   margin-bottom: 16px;
   font-family: "Montserrat";
@@ -45,7 +45,7 @@
   line-height: 32px;
   color: #4F4F4F;
 }
-.container .row1 .col1 .kontakt {
+.container .red1 .stup1 .kontakt {
   background: #4A93EC;
   border-radius: 4px;
   border-style: none;
@@ -59,19 +59,19 @@
   /* Background */
   color: #F8FAFC;
 }
-.container .row1 .col2 {
+.container .red1 .stup2 {
   padding-top: 5rem;
 }
-.container .row1 .col2 .slika {
+.container .red1 .stup2 .slika {
   width: 462px;
   padding: 0 15px;
   padding-top: 100px;
 }
-.container .row2 {
+.container .red2 {
   display: flex;
   justify-content: center;
 }
-.container .row2 .profesionalna-nacela {
+.container .red2 .profesionalna-nacela {
   margin: 80px 0;
   font-family: "Bodoni Moda";
   font-style: normal;

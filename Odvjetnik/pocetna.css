@@ -4,12 +4,13 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-body .navigacijska-traka {
+
+.navigacijska-traka {
   flex: 1;
   display: flex;
   justify-content: center;
 }
-body .navigacijska-traka #kk {
+.navigacijska-traka #kk {
   display: flex;
   justify-content: space-around;
   width: 900px;
@@ -20,14 +21,15 @@ body .navigacijska-traka #kk {
   line-height: 48px;
   color: #4F4F4F;
 }
-body .box {
+
+.box {
   position: absolute;
   top: 72px;
   bottom: 0;
   left: 0;
   right: 0;
 }
-body .box .hrvoje-gelo-pocetna-logo {
+.box .hrvoje-gelo-pocetna-logo {
   color: lightblue;
   position: absolute;
   top: 0px;
@@ -38,10 +40,10 @@ body .box .hrvoje-gelo-pocetna-logo {
   justify-content: center;
   align-items: center;
 }
-body .box .hrvoje-gelo-pocetna-logo .logo-pocetna {
+.box .hrvoje-gelo-pocetna-logo .logo-pocetna {
   width: 800px;
 }
-body .box .kontaktirajte-nas-tipka {
+.box .kontaktirajte-nas-tipka {
   background: #4A93EC;
   position: absolute;
   right: 72px;
@@ -51,7 +53,7 @@ body .box .kontaktirajte-nas-tipka {
   border-radius: 4px;
   cursor: pointer;
 }
-body .box .kontaktirajte-nas-tipka .kontaktirajte-nas {
+.box .kontaktirajte-nas-tipka .kontaktirajte-nas {
   margin-top: 16px;
   text-align: center;
   font-family: "Montserrat";

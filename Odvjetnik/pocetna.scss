@@ -3,76 +3,73 @@ body {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
+}
 
-    .navigacijska-traka {
-        flex: 1;
+.navigacijska-traka {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    #kk {
         display: flex;
-        justify-content: center;
-
-        #kk {
-            display: flex;
-            justify-content: space-around;
-            width: 900px;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 48px;
-            color: #4F4F4F;
-        }
+        justify-content: space-around;
+        width: 900px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 48px;
+        color: #4F4F4F;
     }
+}
 
-    .box {
+.box {
+    position: absolute;
+    top: 72px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .hrvoje-gelo-pocetna-logo {
+        color: lightblue;
         position: absolute;
-        top: 72px;
+        top: 0px;
         bottom: 0;
         left: 0;
         right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        .hrvoje-gelo-pocetna-logo {
-            color: lightblue;
-            position: absolute;
-            top: 0px;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            .logo-pocetna {
-                width: 800px;
-            }
+        .logo-pocetna {
+            width: 800px;
         }
+    }
 
-        .kontaktirajte-nas-tipka {
-            background: #4A93EC;
-            position: absolute;
-            right: 72px;
-            bottom: 96px;
-            height: 56px;
-            width: 241px;
-            border-radius: 4px;
-            cursor: pointer;
+    .kontaktirajte-nas-tipka {
+        background: #4A93EC;
+        position: absolute;
+        right: 72px;
+        bottom: 96px;
+        height: 56px;
+        width: 241px;
+        border-radius: 4px;
+        cursor: pointer;
 
 
-            .kontaktirajte-nas {
+        .kontaktirajte-nas {
 
-                margin-top: 16px;
-                text-align: center;
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 20px;
-                line-height: 24px;
+            margin-top: 16px;
+            text-align: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
 
-                color: #F8FAFC;
-            }
-
+            color: #F8FAFC;
         }
 
     }
-
-
 
 }
