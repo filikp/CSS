@@ -65,9 +65,9 @@
 .container .row2 {
   display: flex;
   justify-content: center;
+  margin: 80px 0;
 }
 .container .row2 .list-of-principles {
-  margin: 80px 0;
   font-family: "Bodoni Moda";
   font-style: normal;
   font-weight: 700;
@@ -78,7 +78,7 @@
 }
 .container .box .row {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-bottom: 2rem;
   height: 150px;
 }
