@@ -76,7 +76,8 @@
   color: #000000;
 }
 .container .row-spacing {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  min-height: 130px;
 }
 .container .numbers {
   width: 100px;
