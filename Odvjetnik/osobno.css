@@ -11,7 +11,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 48px;
   color: #4F4F4F;
 }
 
@@ -76,21 +75,14 @@
   /* identical to box height, or 180% */
   color: #000000;
 }
-.container .box .row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  height: 150px;
+.container .row-spacing {
+  margin-bottom: 3rem;
 }
-.container .box .row .col {
-  display: flex;
-  flex-direction: row;
-}
-.container .box .row .col .numbers {
+.container .numbers {
   width: 100px;
   padding-left: 1rem;
 }
-.container .box .row .col .numbers .frame {
+.container .numbers .frame {
   border-style: solid;
   width: 90px;
   height: 90px;
@@ -100,14 +92,14 @@
   justify-content: center;
   align-items: center;
 }
-.container .box .row .col .numbers .frame p {
+.container .numbers .frame p {
   font-family: "Didot";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   padding-top: 15px;
 }
-.container .box .row .col .text {
+.container .text {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -115,7 +107,6 @@
   line-height: 40px;
   padding-left: 4rem;
   color: #4F4F4F;
-  width: 500px;
 }
 
 .footer {

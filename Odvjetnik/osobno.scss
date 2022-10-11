@@ -11,7 +11,6 @@
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
-        line-height: 48px;
         color: #4F4F4F;
     }
 }
@@ -93,24 +92,11 @@
         }
     }
 
-    .box {
-
-        .row {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 2rem;
-            // background-color: rgb(228, 247, 176);
-            height: 150px;
-            // @media (max-width: 1200px){
-            //     display: flex;
-            //     flex-direction: column;
-            // }
 
 
-            .col {
-                display: flex;
-                flex-direction: row;
-
+        .row-spacing{
+            margin-bottom: 3rem;
+        }
 
                 .numbers {
                     width: 100px;
@@ -148,12 +134,12 @@
                     padding-left: 4rem;
                     //background-color: greenyellow;
                     color: #4F4F4F;
-                    width: 500px;
+                    
                 }
-            }
-        }
-    }
+            
 }
+
+
 
 .footer {
     padding: 4rem 5rem;
