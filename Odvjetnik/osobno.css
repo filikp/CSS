@@ -75,39 +75,38 @@
   /* identical to box height, or 180% */
   color: #000000;
 }
-.container .row-spacing {
-  margin-bottom: 2rem;
-  min-height: 130px;
+.container .col-adjust {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 5rem;
 }
 .container .numbers {
-  width: 100px;
-  padding-left: 1rem;
-}
-.container .numbers .frame {
-  border-style: solid;
   width: 90px;
+  border-style: solid;
   height: 90px;
   border-radius: 45px;
   border-width: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 1rem;
 }
-.container .numbers .frame p {
+.container .numbers p {
   font-family: "Didot";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   padding-top: 15px;
 }
-.container .text {
+
+.text {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 40px;
-  padding-left: 4rem;
   color: #4F4F4F;
+  flex: 1;
 }
 
 .footer {

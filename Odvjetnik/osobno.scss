@@ -94,51 +94,46 @@
 
 
 
-        .row-spacing{
-            margin-bottom: 2rem;
-            min-height: 130px;
+    .col-adjust {
+        display: flex;
+        justify-content: start;
+        margin-bottom: 5rem;
+    }
+
+    .numbers {
+        width: 90px;
+        border-style: solid;
+        height: 90px;
+        border-radius: 45px;
+        border-width: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+
+        p {
+            font-family: 'Didot';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            padding-top: 15px;
         }
-
-                .numbers {
-                    width: 100px;
-                    padding-left: 1rem;
-
-                    .frame {
-                        border-style: solid;
-                        width: 90px;
-                        height: 90px;
-                        border-radius: 45px;
-                        border-width: 1px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-
-                        //background-color: pink;
-                        p {
-                            font-family: 'Didot';
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 24px;
-                            padding-top: 15px;
-                        }
-                    }
+    }
 
 
-                }
-
-                .text {
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 18px;
-                    line-height: 40px;
-                    padding-left: 4rem;
-                    //background-color: greenyellow;
-                    color: #4F4F4F;
-                    
-                }
-            
 }
+
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    color: #4F4F4F;
+    flex: 1;
+
+}
+
 
 
 
