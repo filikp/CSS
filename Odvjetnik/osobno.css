@@ -17,11 +17,7 @@
 .container {
   padding: 7rem 3rem;
 }
-.container .row1 {
-  display: flex;
-  justify-content: space-between;
-}
-.container .row1 .col1 h1 {
+.container h1 {
   font-family: "Bodoni Moda";
   font-style: normal;
   font-weight: 400;
@@ -29,7 +25,7 @@
   line-height: 98px;
   color: #1C1D1E;
 }
-.container .row1 .col1 p {
+.container p {
   margin-top: 48px;
   margin-bottom: 16px;
   font-family: "Montserrat";
@@ -39,7 +35,7 @@
   line-height: 32px;
   color: #4F4F4F;
 }
-.container .row1 .col1 .button-contact {
+.container .button-contact {
   background: #4A93EC;
   border-radius: 4px;
   border-style: none;
@@ -53,13 +49,15 @@
   /* Background */
   color: #F8FAFC;
 }
-.container .row1 .col2 {
-  padding-top: 5rem;
+.container .picture-adjust {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container .row1 .col2 .picture-hrvoje-gelo {
+.container .picture-hrvoje-gelo {
   width: 462px;
   padding: 0 15px;
-  padding-top: 100px;
 }
 .container .row2 {
   display: flex;
@@ -89,17 +87,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 1rem;
-}
-.container .numbers p {
+  margin-right: 3rem;
   font-family: "Didot";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  padding-top: 15px;
 }
-
-.text {
+.container .text {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -112,10 +106,8 @@
 .footer {
   padding: 4rem 5rem;
   background: #1C1D1E;
-  display: flex;
-  justify-content: space-between;
 }
-.footer .col a {
+.footer a {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
